@@ -1,0 +1,34 @@
+{
+	"name": "ui-interface",
+	"version": "1.0.0",
+	"description": "",
+	"main": "package.json",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "ProjectSoft <projectsoft2009@yandex.ru>",
+	"license": "ISC",
+	"devDependencies": {
+		"grunt": "latest",
+		"grunt-autoprefixer": "latest",
+		"grunt-contrib-clean": "latest",
+		"grunt-contrib-concat": "latest",
+		"grunt-contrib-copy": "latest",
+		"grunt-contrib-cssmin": "latest",
+		"grunt-contrib-imagemin": "latest",
+		"grunt-contrib-jshint": "latest",
+		"grunt-contrib-less": "latest",
+		"grunt-contrib-pug": "latest",
+		"grunt-contrib-requirejs": "latest",
+		"grunt-contrib-uglify": "latest",
+		"grunt-contrib-watch": "latest",
+		"grunt-group-css-media-queries": "latest",
+		"grunt-newer": "latest",
+		"grunt-notify": "git+https://github.com/ProjectSoft-STUDIONIONS/grunt-notify.git",
+		"grunt-replace": "^1.0.1",
+		"grunt-webfont": "latest",
+		"less-plugin-clean-css": "latest",
+		"load-grunt-tasks": "latest",
+		"time-grunt": "latest"
+	}
+}

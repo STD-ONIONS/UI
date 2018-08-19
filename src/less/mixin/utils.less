@@ -1,0 +1,38 @@
+.box-sizing(){
+	&,
+	&:before,
+	&:after {
+		box-sizing: border-box;
+	}
+}
+.clearfix() {
+	&:before,
+	&:after {
+		display: table;
+		content: "";
+	}
+	&:after {
+		clear: both;
+	}
+}
+.row() {
+	margin-left: -15px;
+	margin-right: -15px;
+	.clearfix();
+}
+.center-block(){
+	margin-left: auto;
+	margin-right: auto;
+}
+.text-center(){
+	text-align: center;
+}
+.text-left(){
+	text-align: left;
+}
+.text-right(){
+	text-align: right;
+}
+.text-justify() {
+	text-align: justify;
+}
